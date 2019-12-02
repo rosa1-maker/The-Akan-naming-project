@@ -10,4 +10,9 @@ label{
 #paragraph{
   font-family:'Old Standard TT', serif;
 }
+#images{
+  display:flex;
+  display: inline;
+  justify-content: space-evenly;
+}
 

@@ -4,16 +4,13 @@ function getName() {
   //   var day = parseInt(documentgetElementById("date").value);
   //   var yourDay = parseInt((5 * year) / 4 + (26 * (month + 1)) / 10 + day) % 7;
 
+  var centuary = document.forms["form_reg"]["centuary"].value;
   var year = document.forms["form_reg"]["year"].value;
   var month = document.forms["form_reg"]["month"].value;
   var day = document.forms["form_reg"]["day"].value;
-  alert(day);
+  var d = (CC / 4 - 2 * CC - 1 + (5 * YY) / 4 + (26 * (MM + 1)) / 10 + DD) % 7;
 
   var userGender = document.querySelector('input[name="sex"]:checked').value;
-
-  alert(year);
-  alert(month);
-  alert(day);
 
   var maleNames = [
     "Kwasi",

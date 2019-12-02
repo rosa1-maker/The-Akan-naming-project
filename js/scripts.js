@@ -2,12 +2,12 @@
     "Kwasi", "KWado", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"
     );
     var femaleNames=(
-        "Akosua", "Adowoa", "Abenaa", "Akua", "Yaa", "Afua" "Ama"
-    );
+        "Akosua", "Adowoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"
+  );
     function femaleNames(){
-var day= parseInt(documentgetElementById("year").value);
-var monthh=parseInt(documentgetElementById("Month").value);
-var day =parseInt(documentgetElementById("day").value);
+var year= parseInt(documentgetElementById("year").value);
+var month=parseInt(documentgetElementById("Month").value);
+var date=parseInt(documentgetElementById("date").value);
 var d=new Date =d(year, month, date);
 var yourDay=d.getDay();
 
@@ -40,9 +40,9 @@ if(yourDay==6){
 
     }
     function maleNames(){
-        var day= parseInt(documentgetElementById("year").value);
-        var monthh=parseInt(documentgetElementById("Month").value);
-        var day =parseInt(documentgetElementById("day").value);
+        var year= parseInt(documentgetElementById("year").value);
+        var month=parseInt(documentgetElementById("Month").value);
+        var date=parseInt(documentgetElementById("date").value);
         var d=new Date =d(year, month, date);
         var yourDay=d.getDay();
         

@@ -1,5 +1,4 @@
 *{
-  text-align: center;
   font-size: 30px;
   justify-content: space-between;
   background-color: lightblue;
@@ -15,4 +14,16 @@ label{
   display: inline;
   justify-content: space-evenly;
 }
-
+.images1{
+display:flex;
+display:table-row-group;
+}
+.jumbo{
+  text-align: center;
+  font-size: 50px;
+}
+span{
+  color: aqua;
+  text-align: center;
+  font-size: 50px;
+}

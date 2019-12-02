@@ -9,14 +9,15 @@ label{
 #paragraph{
   font-family:'Old Standard TT', serif;
 }
-#images{
-  display:flex;
-  display: inline;
-  justify-content: space-evenly;
-}
 .images1{
 display:flex;
-display:table-row-group;
+justify-content: space-between;
+
+}
+#images{
+  display:flex;
+  justify-content: space-between;
+  padding-top: 40px;
 }
 .jumbo{
   text-align: center;
@@ -26,4 +27,7 @@ span{
   color: aqua;
   text-align: center;
   font-size: 50px;
+}
+#card{
+  align-content: center;
 }
